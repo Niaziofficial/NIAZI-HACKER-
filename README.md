@@ -62,3 +62,4 @@ npm install
 npm start
 # or
 node niazi_md.js
+[![Pair / Open Heroku Logs](https://img.shields.io/badge/Pair-Open%20Logs-orange)](https://dashboard.heroku.com/apps/niazi-md-bot/logs)
