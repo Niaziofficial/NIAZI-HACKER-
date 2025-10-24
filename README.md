@@ -1,10 +1,7 @@
-🚀 NIAZI-MD
+# 🚀 NIAZI-MD
 
-> **NIAZI-MD** — WhatsApp MD Bot (Baileys + Node.js)  
-> Friendly, fast, and ready to deploy.  
-> Owner: **+92 344 8166105**
-
----
+**NIAZI-MD** — Simple, friendly WhatsApp MD Bot (Baileys + Node.js)  
+Owner: **+92 344 8166105**
 
 <p align="center">
   <img src="https://i.ibb.co/WW3f9Mt9/shaban-md.jpg" alt="NIAZI-MD Banner" width="720"/>
@@ -12,7 +9,7 @@
 
 ---
 
-## 🔥 Quick Links
+## 🔗 Quick Links
 - **Repo:** `https://github.com/Niaziofficial/NIAZI-HACKER-`  
 - **Channel:** https://whatsapp.com/channel/0029VbBKWrA2v1Iu4KVE3A1H  
 - **Group:** https://chat.whatsapp.com/KJ6qs3H2xC6AQPYRTaNBNm?mode=wwc  
@@ -20,62 +17,42 @@
 
 ---
 
-## ⚙️ Features
-- ✅ Multi-device (Baileys) WhatsApp bot  
-- ✅ Auto reply: `hi`, `menu`, `about`, `owner`, `ping`, `time`  
-- ✅ Menu sends image + caption (menu image configured)  
-- ✅ Easy config via `config.json`  
+## ⚙️ One-click / Pair Buttons
+
+**Deploy to Heroku (one-click):**  
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Niaziofficial/NIAZI-HACKER-)
+
+**Pair / Open Heroku Logs** — click this to go straight to your Heroku app logs (scan QR there to link bot):  
+[![Pair / Open Heroku Logs](https://img.shields.io/badge/Pair-Open%20Logs-orange)](https://dashboard.heroku.com/apps/niazi-md-bot/logs)
+
+> ⚠️ If your Heroku app name is **not** `niazi-md-bot`, replace the URL above with:
+> `https://dashboard.heroku.com/apps/<YOUR-HEROKU-APP-NAME>/logs`
+
+---
+
+## 🧾 Features
+- ✅ Sends image menu (configured menu image)  
+- ✅ Commands: `hi`, `menu`, `about`, `owner`, `ping`, `time`  
+- ✅ Configurable via `config.json` (owner, channel, group, menuImage)  
 - ✅ Ready for Heroku / Render / VPS deploy
 
 ---
 
-## 📦 Files in repo
-- `niazi_md.js` — Main bot file (Node.js)  
-- `config.json` — Owner/channel/group/menuImage settings  
-- `package.json` — NPM scripts & deps  
-- `Procfile` — Heroku worker: `worker: node niazi_md.js`  
-- `.gitignore` — `node_modules`, `auth_info.json` ignored  
+## 📁 Files in repo
+- `niazi_md.js` — main bot file (Node.js)  
+- `config.json` — owner, channel, group, menuImage, botName  
+- `package.json` — dependencies & start script  
+- `Procfile` — `worker: node niazi_md.js` (for Heroku)  
+- `.gitignore` — excludes `node_modules` and `auth_info.json`  
 - `README.md` — (this file)
-
----
-
-## 🚀 One-click Deploy (Heroku)
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Niaziofficial/NIAZI-HACKER-)
-
-**OR** Deploy to Render (recommended for persistent disk):
-[![Deploy to Render](https://img.shields.io/badge/Deploy-Render-blue)](https://render.com)
-
-> **Note:** Heroku dynos are ephemeral — `auth_info.json` may be lost on restarts. For persistent session use Render or a VPS.
 
 ---
 
 ## 🛠 How to run locally (quick)
 ```bash
-# clone (if not already)
 git clone https://github.com/Niaziofficial/NIAZI-HACKER-.git
 cd NIAZI-MD
-
-# install
 npm install
-
-# start
 npm start
 # or
 node niazi_md.js
-# NIAZI-MD BOT 🤖
-Your official WhatsApp MD bot made by Niazi Official.
-
----
-
-## 🔗 Pair & Deploy
-
-[![Deploy on Heroku](https://img.shields.io/badge/Deploy-Heroku-purple)](https://heroku.com/deploy?template=https://github.com/Niaziofficial/NIAZI-HACKER-)
-
-[![Pair / Open Heroku Logs](https://img.shields.io/badge/Pair-Open%20Logs-orange)](https://dashboard.heroku.com/apps/niazi-md-bot/logs)
-
----
-
-### 📞 Owner Info  
-**Owner Number:** +92344 8166105  
-**WhatsApp Channel:** [Join Now](https://whatsapp.com/channel/0029VbBKWrA2v1Iu4KVE3A1H)  
-**Group:** [Join Group](https://chat.whatsapp.com/KJ6qs3H2xC6AQPYRTaNBNm?mode=wwc)
