@@ -62,4 +62,20 @@ npm install
 npm start
 # or
 node niazi_md.js
+# NIAZI-MD BOT 🤖
+Your official WhatsApp MD bot made by Niazi Official.
+
+---
+
+## 🔗 Pair & Deploy
+
+[![Deploy on Heroku](https://img.shields.io/badge/Deploy-Heroku-purple)](https://heroku.com/deploy?template=https://github.com/Niaziofficial/NIAZI-HACKER-)
+
 [![Pair / Open Heroku Logs](https://img.shields.io/badge/Pair-Open%20Logs-orange)](https://dashboard.heroku.com/apps/niazi-md-bot/logs)
+
+---
+
+### 📞 Owner Info  
+**Owner Number:** +92344 8166105  
+**WhatsApp Channel:** [Join Now](https://whatsapp.com/channel/0029VbBKWrA2v1Iu4KVE3A1H)  
+**Group:** [Join Group](https://chat.whatsapp.com/KJ6qs3H2xC6AQPYRTaNBNm?mode=wwc)
